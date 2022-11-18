@@ -1,0 +1,23 @@
+{"intents":[
+ {"tag": "greeting",
+  "patterns":["Hey", "Hello"],
+  "responses":[" what can I do for you"]},
+
+  {"tag": "add_friend",
+  "patterns":["Add a friend to list", "Add friend"],
+  "responses":["Creating a file for this friend you loner"]},
+
+  {"tag": "about_friend",
+  "patterns":["Add information about friend", "About friend"],
+  "responses":["Adding characteristic about this friend"]},
+
+  {"tag": "quit",
+  "patterns":["end the system"],
+  "responses":["I am good what about you"]}
+
+]}
+
+
+
+
+
