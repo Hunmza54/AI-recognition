@@ -11,7 +11,7 @@ recognizer = speech_recognition.Recognizer()
 myfriend = talking.init()
 myfriend.setProperty('rate',150) #sets the speed AI speaks in 
 
-about_friends = {'stupid','Druggie'}
+about_friends = {'fun','Helpful'}
 
 def add_friend():
     global recognizer
@@ -41,7 +41,7 @@ def add_friend():
                 myfriend.runAndWait()
         except speech_recognition.UnknownValueError:
             recognizer = speech_recognition.Recognizer()
-            myfriend.say("I no understand you dumbass")
+            myfriend.say("I dont understant")
             myfriend.runAndWait()
             
 def about_friend():
@@ -66,11 +66,11 @@ def about_friend():
                 
         except speech_recognition.UnknownValueError:
             recognizer = speech_recognition.Recognizer()
-            myfriend.say("I no understand you dumbass")
+            myfriend.say("I dont understant")
             myfriend.runAndWait()
             
 def hello():
-    myfriend.say("Hello, What can I do for you dumb bitch?")
+    myfriend.say("Hello, What can I do for you?")
     myfriend.runAndWait()
     
 
